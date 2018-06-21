@@ -17,16 +17,17 @@ Download repository and open the index.html file in the browser.
 ## The following 7 tests are implemented
 
 **for the RSS Feeds**
-allFeeds variable is defined and not empty
-urls are defined and not empty
-names are defined and not empty
+- allFeeds variable is defined and not empty
+- urls are defined and not empty
+- names are defined and not empty
 
 **for the Menu**
-menu element is hidden by default
-menu toggles display/hide when clicked
+- menu element is hidden by default
+- menu toggles display/hide when clicked
 
 **for the Entries**
-checks if there is at least a single entry
+- checks if there is at least a single entry
 
 **for the New Feed Selection**
-checks if new feed is loaded
+- checks if new feed is loaded
+
