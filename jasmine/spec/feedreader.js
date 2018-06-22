@@ -58,6 +58,7 @@ $(function() {
             });
         });
 
+
         /* Test suite named "The menu" */
         describe('The Menu', function () {
 
@@ -112,19 +113,13 @@ $(function() {
              * use of Jasmine's beforeEach and asynchronous done() function.
              */
             beforeEach(function (done) {
-
-//              $('.feed').empty();
                 loadFeed(0, function () {
                     entriesStart = $('.feed').html();
-  
-//                  done();
-
-	                loadFeed(1, function () {
+ 	                loadFeed(1, function () {
 	                    entriesEnd = $('.feed').html();
-//	                    entriesEnd = $('.feed').find(allFeeds.url); //mudar? ver vid
 	                    done();
 	                });
-                }); // retirar da linha 122 
+                });
             });
 
             it('check if new feed is loaded', function () {
